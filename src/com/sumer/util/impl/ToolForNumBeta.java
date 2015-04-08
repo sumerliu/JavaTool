@@ -6,6 +6,7 @@ public class ToolForNumBeta implements ToolForNum{
 
 	@Override
 	public String getRandom4Num(int digit) {
+		//´ý¸ÄÁ¼
 		String strForNum = "";
 		int basic = (int)Math.pow(10, digit);
 		Integer random = new Integer((int)(Math.random()*basic));
