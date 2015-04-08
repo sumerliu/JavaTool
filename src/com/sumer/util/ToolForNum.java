@@ -3,13 +3,13 @@ package com.sumer.util;
 public interface ToolForNum {
 	
 	/**
-	 * @Description ¸Ã·½·¨ÓÃÒÔ»ñÈ¡4Î»Ëæ»úÊı×Ö·û´®
+	 * @Description æ ¹æ®ä¼ å…¥çš„ä½æ•°è·å–éšæœºæ•°å­—ç¬¦ä¸²
 	 * @author liutj
-	 * @param digit ¶ÔÊä³öËæ»úÊıµÄÎ»Êı½øĞĞÏŞ¶¨
+	 * @param digit
 	 * @return 
-	 * String ·µ»ØÒ»¸öËæ»úÊı×Ö·û´®
-	 * 2015Äê4ÔÂ8ÈÕ
+	 * String
+	 * 2015å¹´4æœˆ8æ—¥
 	 */
-	String getRandom4Num(int digit);
+	String getRandomNum(int digit);
 
 }

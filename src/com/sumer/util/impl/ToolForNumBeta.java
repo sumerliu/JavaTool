@@ -5,8 +5,7 @@ import com.sumer.util.ToolForNum;
 public class ToolForNumBeta implements ToolForNum{
 
 	@Override
-	public String getRandom4Num(int digit) {
-		//´ý¸ÄÁ¼
+	public String getRandomNum(int digit) {
 		String strForNum = "";
 		int basic = (int)Math.pow(10, digit);
 		Integer random = new Integer((int)(Math.random()*basic));

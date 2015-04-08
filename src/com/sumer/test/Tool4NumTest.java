@@ -9,7 +9,7 @@ public class Tool4NumTest {
 		ToolForNum tool4Num = new ToolForNumBeta();
 		int count = 100;
 		while(count-->0){
-			System.out.println(tool4Num.getRandom4Num(2));
+			System.out.println(tool4Num.getRandomNum(2));
 		}
 	}
 }

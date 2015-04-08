@@ -4,9 +4,9 @@ public interface ToolForDate {
 	
 	public enum timeTemplate4Tool{
 		
-		DATEDETAIL("yyyyMMdd","ÄêÔÂÈÕ"),
-		TIMEDETAIL("yyyyMMddhhmm","ÄêÔÂÈÕÊ±·Ö"),
-		YEARMONTH("yyyyMM","ÄêÔÂ");
+		DATEDETAIL("yyyyMMdd","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"),
+		TIMEDETAIL("yyyyMMddhhmm","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½"),
+		YEARMONTH("yyyyMM","ï¿½ï¿½ï¿½ï¿½");
 		private String timeTemplate;
 		private String alias;
 		private timeTemplate4Tool(String timeTemplate, String alias) {
@@ -20,15 +20,13 @@ public interface ToolForDate {
 			return alias;
 		}
 	}
-	
 	/**
-	 * 
-	 * @Description ¸ù¾İ´«ÈëÊ±¼äµÄÄ£°å£¬»ñÈ¡µ±Ç°Ê±¼äµãµÄ×Ö·û´®¡£
+	 * @Description ç”¨äºæ ¹æ®æ—¥æœŸæ¨¡æ¿è·å–å½“å‰æ ‡å‡†æ—¶é—´
 	 * @author liutj
 	 * @param template
 	 * @return 
 	 * String
-	 * 2015Äê4ÔÂ7ÈÕ
+	 * 2015å¹´4æœˆ8æ—¥
 	 */
 	String getCurrentTime(String template);
 
