@@ -3,7 +3,6 @@ package com.sumer.util;
 public interface ToolForNum {
 	
 	/**
-	 * 
 	 * @Description 该方法用以获取4位随机数字符串
 	 * @author liutj
 	 * @param digit 对输出随机数的位数进行限定
